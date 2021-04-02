@@ -1,0 +1,6 @@
+var listaFilmes  = ["https://m.media-amazon.com/images/M/MV5BMzdlMWQzZmItMDA5Ny00MGFjLTk0MDAtYjgzMmMyNTEwMzdhXkEyXkFqcGdeQXVyODQzNTE3ODc@._V1_UX182_CR0,0,182,268_AL_.jpg", "https://m.media-amazon.com/images/M/MV5BODlhOTYyY2UtMTE2ZC00NTgwLWIwNDYtNDM5YWM2YWI5ZDMxXkEyXkFqcGdeQXVyNjYwMjkwMjg@._V1_UY268_CR25,0,182,268_AL_.jpg", "https://m.media-amazon.com/images/M/MV5BNThmZGY4NzgtMTM4OC00NzNkLWEwNmEtMjdhMGY5YTc1NDE4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg", "https://m.media-amazon.com/images/M/MV5BOThjYzg2ZDEtOWNmMS00YzJkLTgzMjktY2FiYjc3ZDM1ZWY4XkEyXkFqcGdeQXVyMjg5MDU0NDc@._V1_UY268_CR3,0,182,268_AL_.jpg", "https://m.media-amazon.com/images/M/MV5BOTM4ZmM5MGItYzNhOC00Y2FlLWFiZmEtN2U0ZWQ3NWI0NTVkXkEyXkFqcGdeQXVyMjY2Mzk5OTc@._V1_UY268_CR0,0,182,268_AL_.jpg", "https://m.media-amazon.com/images/M/MV5BNTBlZjU4M2ItNWFiYi00N2NiLWI2MTQtMjBlNTVlMWEyZjY0XkEyXkFqcGdeQXVyNjIzMzc0NDQ@._V1_UY268_CR5,0,182,268_AL_.jpg"]
+
+
+for (var i= 0; i < listaFilmes.length; i++){
+  document.write("<img src=" + listaFilmes[i] + ">")
+}
